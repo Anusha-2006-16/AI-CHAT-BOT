@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  padding: 11px;
+  height: 90vh;
+}
+.data-container .qns{
+  background-color: rgb(235, 228, 228);
+  border-radius: 22px;
+  padding: 11px; 
+}
+.data-container{
+  height: 68%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.data-container .ans{
+  padding: 11px;
+  background-color: azure;
+}
+.input-container{
+  width: 80%;
+  border-radius: 22px;
+  box-shadow: 0px 3px 3px 2px rgb(239, 233, 233);
+  border: 1px solid silver;
+  position: fixed;
+  top: 68%;
+  height: 27%;
+  display: flex;
+  flex-direction: column;
+}
+.input-container input{
+  width: 90%;
+  border: none;
+  outline: none;
+  padding: 11px;
+}
+.input-container button{
+  width: 90px;
+  height: 33px;
+  background-color: black;
+  color: white;
+  border-radius: 18px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-top: 88px;
+  margin-left: 15px;
+}
+.loader{
+/* margin: auto; */
+  margin-left: 204px;
+  margin-top: 200px;
+  font-size: 70px;
+}
+.btns{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
